@@ -4,7 +4,92 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
   </head>
-  <body></body>
+<body>
+    <div class="container">
+      <title>Plants & Decor</title>
+      <h1>Plants and Decor</h1>
+      <div class="bodyPage">
+        <h2>How to use indoor plants for interior decoration</h2>
+        <hr />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/017/722/original/urban-jungle-0.jpeg?1632682752"
+          alt="urban jungle living room"
+        />
+        <hr />
+        <p>
+          <strong>The benefits of indoor plants are well established.</strong>
+          In addition to being a rencetly trendy decoration style, plants bring
+          a unique vibration at home.
+        </p>
+
+        <p>
+          Ancestral Chinese art, <em> Feng Shui</em> aims to harmonize the
+          energy of a room to provide to its occupants serenity, well-being and
+          harmony. This subtle and fascinating practice helps to regulate our
+          polluted spaces, filled with magnetic waves, etc.
+        </p>
+
+        <p>
+          Feng Shui plants have an energetic and stabilizing role. For example,
+          in the corners of a room, they can neutralize the harmful energies
+          (poisoned arrows) and help the chi to circulate. In large rooms and
+          corridors these plants slow down the energy. In addition, plants
+          represent the living and therefore of course a positive energy. This
+          is why Feng Shui will prefer fake plants (representing a living plant)
+          than dried flowers, which are the non-living version of the plant
+          (dead energy).
+        </p>
+
+        <p>
+          The plants will therefore vitalize and so make us swim in a chi
+          regenerator very beneficial for our health. The yang energy of plants
+          cleans our home, and neutralizes the possible negative energies of
+          chemical and electrical pollutants, as mentioned previously.
+        </p>
+        <a
+          href="https://marshmalloword.com/en/2019/05/benefits-of-indoor-plants-creating-an-urban-jungle.html"
+          target="_blank"
+          class="learn-more"
+        >
+          Learn more at Marshmallowor(l)d
+        </a>
+
+        <button class="buy-button">Buy Indoor Plants</button>
+
+        <div class="contact-detailing">
+          <span class="email">
+            email: <span class="emailaddress">indoorplants@jungle.com </span>
+          </span>
+        </div>
+        <p class="footer">
+          This page was built by <br />
+          <a
+            href="https://github.com/formigga/"
+            target="_blank"
+            >Patrícia Formiga
+          </a>
+        </p>
+      </div>
+    <script>
+      function buy() {
+        let name = prompt("What's your name?");
+        let email = prompt("What's your email?");
+
+        if (name === "" || email === "") {
+          alert("It looks like you forgot to add your name or email. 😣");
+        } else {
+          alert(
+            "Thank you, " +
+              name +
+              "! We'll be in touch soon to help you build your own little jungle. 🌳"
+          );
+        }
+      }
+      let buyButton = document.querySelector(".buy-button");
+      buyButton.addEventListener("click", buy);
+    </script>
+  </body>
 </html>

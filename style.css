@@ -1,0 +1,90 @@
+body {
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+h1 {
+  text-align: center;
+  color: rgba(1, 77, 77, 0.774);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.281);
+  font-size: 60px;
+  font-family: "Franklin Gothic Large", "Arial Narrow", Arial, sans-serif;
+  border: 3px solid #f0e9e49d;
+  padding: 13px;
+  border-radius: 15px;
+  background-color: #f4eee9;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Franklin Gothic Small", "Arial Narrow", Arial, sans-serif;
+}
+
+p {
+  display: block;
+  line-height: 1.5;
+  font-size: 16px;
+  margin: 10px 10px 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 13px;
+  border-radius: 25px;
+  max-width: 100%;
+}
+
+button {
+  display: block;
+  margin: 20px auto 30px;
+  background: rgba(1, 75, 75, 0.911);
+  color: whitesmoke;
+  font-size: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 80px;
+}
+.learn-more {
+  font-size: 13px;
+  text-decoration: none;
+  color: rgba(1, 77, 77, 0.74);
+  margin: 10px 10px 10px;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 20px 0px 0px;
+}
+.bodyPage {
+  border: 3px solid #f0e9e49d;
+  padding: 13px;
+  border-radius: 15px;
+  background-color: #f4eee9;
+}
+
+.contact-detailing {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  color: rgba(1, 77, 77, 0.74);
+}
